@@ -5,7 +5,7 @@ module.exports = {
         .setName("skipto")
         .setDescription("Pula para uma música específica")
         .addNumberOption((option) => 
-            option.setName("tracknumber").setDescription("Número da música que vai tocar").setminimumValue(1).setRequired(true)
+            option.setName("tracknumber").setDescription("Número da música que vai tocar").setMinValue(1).setRequired(true)
         ), 
 
     run: async ({ client, interaction }) => {
