@@ -1,7 +1,6 @@
 const { SlashCommandBuilder } = require('@discordjs/builders')
 const { MessageEmbed } = require('discordjs')
 const { QueryType } = require('discord-player')
-const { Message } = require('discord.js')
 
 
 module.exports = {
